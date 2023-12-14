@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hector.granjasandroid.view.Cultivo.AddCultivoView">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCultivo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/nombre_cultivo_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cultivo_nombre_label"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/tipo_cultivo_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cultivo_tipo_label"
+            android:inputType="text"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/fechaSiembra_cultivo_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cultivo_fechaSiembra_label"
+            android:inputType="text"
+            android:minHeight="48dp" />
+        <EditText
+            android:id="@+id/fechaCosecha_cultivo_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/cultivo_fechaCosecha_label"
+            android:inputType="text"
+            android:minHeight="48dp" />
+
+        <!-- DatePicker para seleccionar la fecha de siembra -->
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutCultivoButtons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayoutCultivo">
+
+        <Button
+            android:id="@+id/add_cultivo_button"
+            android:layout_width="136dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:onClick="addButton"
+            android:text="@string/add_button"
+            android:textSize="15sp"/>
+
+        <Button
+            android:id="@+id/cancelCultivoButton"
+            android:layout_width="136dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:onClick="cancelButton"
+            android:text="@string/cancel_button"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

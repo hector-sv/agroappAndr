@@ -1,0 +1,93 @@
+<resources>
+    <string name="mapbox_access_token">sk.eyJ1IjoiaGVjdG9yc3ZhbGVybyIsImEiOiJjbGlkNzJldXYwNnVyM2tvOHJpdDB2dDJ6In0.8xdigEv_fxiVIQ9a-moc9w</string>
+
+    <string name="animal_main">ANIMALS</string>
+    <string name="cultivo_main">CROPLAND</string>
+    <string name="granja_main">FARM</string>
+    <string name="equipo_main">EQUIPMENT</string>
+    <string name="empleado_main">EMPLOYEES</string>
+
+    <string name="app_name">AgroApp</string>
+    <string name="animal_nombre_label">What animal is it</string>
+    <string name="animal_tipo_label">What breed is it</string>
+    <string name="animal_sexo_label">What gender is it</string>
+    <string name="fecha_entrada">Entry date</string>
+
+    <string name="add_button">Add</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="modify_button">Modify</string>
+    <string name="delete_button">Delete</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="equipo_fechaCompra_label">Purchase date</string>
+    <string name="add_empleado_actionbar">Add Employee</string>
+
+    <string name="fecha_cosecha_label">Harvest Date</string>
+    <string name="fecha_siembra_label">Sowing Date</string>
+    <string name="cultivo_tipo_label">Crop Type</string>
+    <string name="cultivo_nombre_label">Crop Name</string>
+    <string name="empleado_fechaContrato_label">Employee Contract Date</string>
+
+    <string name="empleado_nombre_label">Name</string>
+    <string name="empleado_apellido_label">Last Name</string>
+    <string name="empleado_cargo_label">Position</string>
+    <string name="empleado_correo_label">Email</string>
+    <string name="fecha_contrato">Contract Date</string>
+    <string name="empleado_salario_label">Salary</string>
+    <string name="are_you_sure_modify_empleado_message">Are you sure you want to modify the employee?</string>
+    <string name="modify_empleado_name">Modify Employee</string>
+
+    <string name="equipo_nombre_label">Name</string>
+    <string name="equipo_tipo_label">Type</string>
+    <string name="equipo_estado_label">Status</string>
+    <string name="fecha_compra">Purchase Date</string>
+
+    <string name="nombre_granja_label">Name</string>
+    <string name="direccion_granja_label">Address</string>
+    <string name="correo_granja_label">Email</string>
+    <string name="telefono_granja_label">Phone</string>
+
+    <string name="are_you_sure_delete_animal_message">Are you sure you want to delete the animal?</string>
+    <string name="delete_animal_name">Delete Animal</string>
+
+    <string name="are_you_sure_delete_cultivo_message">Are you sure you want to delete the crop?</string>
+    <string name="delete_cultivo_name">Delete Crop</string>
+
+    <string name="are_you_sure_delete_empleado_message">Are you sure you want to delete the employee?</string>
+    <string name="delete_empleado_name">Delete Employee</string>
+
+    <string name="are_you_sure_delete_equipo_message">Are you sure you want to delete the equipment?</string>
+    <string name="delete_equipo_name">Delete Equipment</string>
+
+    <string name="are_you_sure_delete_granja_message">Are you sure you want to delete the farm?</string>
+    <string name="delete_granja_name">Delete Farm</string>
+
+    <string name="are_you_sure_modify_animal_message">Are you sure you want to modify the animal?</string>
+    <string name="modify_animal_name">Modify Animal</string>
+
+    <string name="are_you_sure_delete_usuario_message">Are you sure you want to delete the user?</string>
+    <string name="delete_usuario_name">Delete User</string>
+
+    <string name="are_you_sure_modify_cultivo_message">Are you sure you want to modify the crop?</string>
+    <string name="modify_cultivo_name">Modify Crop</string>
+
+    <string name="are_you_sure_modify_equipo_message">Are you sure you want to modify the equipment?</string>
+    <string name="modify_equipo_name">Modify Equipment</string>
+
+    <string name="choose_location_message">Choose Location</string>
+
+    <string name="are_you_sure_modify_granja_message">Are you sure you want to modify the farm?</string>
+    <string name="modify_granja_title">Modify Farm</string>
+
+    <string name="home">Home</string>
+    <string name="add_animal_actionbar">Add Animal</string>
+    <string name="add_cultivo_actionbar">Add Crop</string>
+    <string name="add_equipo_actionbar">Add Equipment</string>
+    <string name="add_granja_actionbar">Add Farm</string>
+
+    <string name="add_cardstore_actionbar">Add Cardstore</string>
+    <string name="see_maps">See Maps</string>
+
+    <string name="animal_fechaEntrada_label">Entry Date</string>
+    <string name="cultivo_fechaSiembra_label">Sowing Date</string>
+    <string name="cultivo_fechaCosecha_label">Harvest Date</string>
+</resources>

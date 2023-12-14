@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginEnd="10dp"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <!-- TextView para el nombre del cultivo -->
+    <TextView
+        android:id="@+id/cultivo_nombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <!-- TextView para el tipo del cultivo -->
+    <TextView
+        android:id="@+id/cultivo_tipo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- TextView para la fecha de siembra del cultivo -->
+    <TextView
+        android:id="@+id/cultivo_fecha_siembra"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- TextView para la fecha de cosecha del cultivo -->
+    <TextView
+        android:id="@+id/cultivo_fecha_cosecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- LinearLayout para los botones -->
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <!-- Botón para modificar el cultivo -->
+        <Button
+            android:id="@+id/modify_cultivo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/modify_button"
+            android:textSize="15sp"/>
+
+        <!-- Botón para eliminar el cultivo -->
+        <Button
+            android:id="@+id/delete_cultivo_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete_button"
+            android:textSize="15sp"/>
+    </LinearLayout>
+
+</LinearLayout>
